@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +6,7 @@
 }
 
 h1{
+    background-color: transparent;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     cursor: pointer;
@@ -19,6 +19,7 @@ h1:hover{
 }
 
 li, a{
+    background-color: transparent;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     font-size: 16px;
@@ -30,19 +31,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 15px 5%;
+    background-color: #121212;
 }
 
 .nav_links{
+    background-color: transparent;
     list-style: none;
 }
 
 .nav_links li{
+    background-color: transparent;
     display: inline-block;
     padding: 0px 20px;
 }
 
 .nav_links li a{
+    background-color: transparent;
     transition: all 0.3s ease 0s;
 }
 
@@ -53,15 +58,19 @@ header {
     color: #0088ff;
 }
 
+.Owneri{
+    padding-top: 1%;
+}
+
 .Owneri p{
     color: white;
     font-size: 25px;
-    padding: 3px 10%;
+    padding: 5px 10%;
     transition: all 0.3s ease 0.3s;
 }
 
 .Owneri p:hover{
-    color: #f7f7f7;
+    color: #0099ff;
     font-size: 26px;
 }
 
@@ -81,6 +90,12 @@ header {
 .Invite a:hover{
     border: none;
     border-radius: 25px;
-    background-color: #0088ff;
+    background-color: #0088aa;
     color: #232323;
 }
+
+.footer{
+    color: #fff;
+    align-items: right;
+}
+
