@@ -87,14 +87,15 @@ nav{
 }
 
 .bodyline img{
-    border-radius: 20px;
+    width: 20%;
+    border-radius: 10px;
     display: block;
     margin: 0 auto;
     transition: all 0.1s ease 0.1s;
 }
 
 .bodyline img:hover{
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 .FrkaNaRadijalcu{
