@@ -36,26 +36,26 @@ header {
 }
 
 .nav_links{
-    background-color: transparent;
     list-style: none;
 }
 
 .nav_links li{
-    background-color: transparent;
-    display: inline-block;
-    padding: 0px 20px;
+    background: #121212;
+    display: inline-flex;
 }
 
 .nav_links li a{
+    background: #121212;
+    font-weight: 200px;
+    padding: 5px;
+    border-width: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: transparent;
     transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover{
-    background-color: transparent;
-    border-bottom: #0088ff;
-    border-radius: 0px;
+    background-color: #fff;
+    border-radius: 20px;
     color: #0088ff;
 }
 
