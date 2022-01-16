@@ -2,20 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #232323;
+}
+body{
+    background-color: #232323;
 }
 
-h1{
+header h1{
     background-color: transparent;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    cursor: pointer;
+    cursor:grab;
     margin-right: auto;
     transition: all 0.3s ease 0s;
 }
 
-h1:hover{
-    color: #0088ff;
+header h1:hover{
+    color: #165B33;
 }
 
 li, a{
@@ -58,9 +60,13 @@ nav{
 }
 
 .nav_links li a:hover{
-    background-color: #fff;
+    background-color: #165B33;
     border-radius: 20px;
-    color: #0088ff;
+    color: #000;
+}
+
+.background1{
+    background-color: f8f8f8;
 }
 
 .Owneri{
@@ -69,8 +75,7 @@ nav{
 
 .Owneri p{
     border-left: 10px;
-    border-left-color: #0088ff;
-    color: white;
+    color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     padding: 1px 10%;
@@ -78,12 +83,12 @@ nav{
 }
 
 .Owneri p:hover{
-    color: #0099ff;
+    color: #ff3636;
     font-size: 26px;
 }
 
 .bodyline{
-    border: 1px solid #232323;
+    border: 1px solid transparent;
 }
 
 .bodyline img{
@@ -104,8 +109,7 @@ nav{
 
 .FrkaNaRadijalcu p{
     border-left: 10px;
-    border-left-color: #0088ff;
-    color: #ff2121;
+    color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     padding: 1px 10%;
@@ -113,7 +117,7 @@ nav{
 }
 
 .FrkaNaRadijalcu p:hover{
-    color: #ff3636;
+    color: #165B33;
     font-size: 26px;
 }
 
@@ -123,11 +127,11 @@ nav{
     padding: 5px;
     border-radius: 5px;
     background: #ff3636;
-    transition: all 0.1s ease 0.1s;
+    transition: all 0.5s ease 0.1s;
 }
 
 .FrkaNaRadijalcu a:hover{
-    background: #ff2121;
+    background: #165B33;
     padding: 5px;
     border-radius: 40px;
     
