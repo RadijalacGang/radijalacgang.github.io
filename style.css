@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,9 +11,9 @@ body{
 
 header h1{
     background-color: transparent;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto';
     color: white;
-    cursor:grab;
+    cursor: grab;
     margin-right: auto;
     transition: all 0.3s ease 0s;
 }
@@ -22,7 +24,7 @@ header h1:hover{
 
 li, a{
     background: #121212;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -66,6 +68,7 @@ nav{
 }
 
 .background1{
+    position:relative;
     padding-bottom: 25px;
     background-color: #F8B229;
 }
@@ -92,23 +95,18 @@ nav{
 
 .Owneri p:hover{
     color: #121212;
-    font-size: 26px;
-}
-
-.bodyline{
-    border: 1px solid transparent;
 }
 
 .bodyline img{
     width: 20%;
     border-radius: 10px;
-    display: block;
+    display: flex;
     margin: 0 auto;
     transition: all 0.1s ease 0.1s;
 }
 
 .bodyline img:hover{
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .FrkaNaRadijalcu{
@@ -126,7 +124,6 @@ nav{
 
 .FrkaNaRadijalcu p:hover{
     color: #121212;
-    font-size: 26px;
 }
 
 .FrkaNaRadijalcu a{
@@ -144,13 +141,22 @@ nav{
     border-radius: 40px;
     
 }
-
-body {
-    background-color: #d8d8d8;
-}
 h1 {
   text-align: center;
 }
+
+.bg2-text{
+    font-family: 'Roboto';
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    color: #F8B229;
+    transition: 0.1s ease-in 0.1s;
+}
+.bg2-text:hover{
+    color: #222;
+}
+
 .social-menu ul {
     position: absolute;
     top: 25%;
