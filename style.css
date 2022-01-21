@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+@font-face {
+    font-family: Pricedow;
+    src: url(fonts/pricedow.ttf);
+}
+@font-face {
+    font-family: Mont;
+    src: url(fonts/MontMed.ttf);
+}
 
 * {
     box-sizing: border-box;
@@ -6,12 +15,13 @@
     padding: 0;
 }
 body{
-    background-color: #232323;
+    background-image: linear-gradient(to bottom right, #222222, #111);
 }
 
 header h1{
     background-color: transparent;
-    font-family: 'Roboto';
+    font-family: 'Pricedow';
+    font-size: 40px;
     color: white;
     cursor: grab;
     margin-right: auto;
@@ -19,6 +29,7 @@ header h1{
 }
 
 header h1:hover{
+    transform: rotate(5deg);
     color: #F8B229;
 }
 
@@ -53,30 +64,31 @@ nav{
 }
 
 .nav_links li a{
+    border-bottom: 3px solid transparent;
     background: #121212;
-    font-weight: 200px;
-    padding: 5px;
-    border-width: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: all 0.3s ease 0s;
+    transition: all 1s ease 0.1s;
 }
 
 .nav_links li a:hover{
-    background-color: #F8B229;
-    border-radius: 20px;
-    color: #000;
+    background-color: transparent;
+    border-bottom: 3px solid #F8B229;
+    border-radius: 0px;
+    transform: scale(1);
+    color: #F8B229;
 }
 
 .background1{
     position:relative;
     padding-bottom: 25px;
-    background-color: #F8B229;
+    background-image: linear-gradient(to bottom, #F8B229, #fcc250);
+    /*background-color: #F8B229;*/
 }
 
 .background2{
     position: relative;
     padding: 1px;
-    padding-bottom: 22%;
+    padding-bottom: 5%;
     background-color: #fff;
 }
 
@@ -85,23 +97,24 @@ nav{
 }
 
 .Owneri p{
-    border-left: 10px;
     color: #fff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Roboto';
     font-size: 25px;
     padding: 1px 10%;
-    transition: all 0.1s ease 0.1s;
+    transition: all 0.4s ease 0.1s;
 }
 
 .Owneri p:hover{
     color: #121212;
+    text-shadow: 0px 0px 10px #000;
 }
 
 .bodyline img{
     width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
-    display: flex;
-    margin: 0 auto;
     transition: all 0.1s ease 0.1s;
 }
 
@@ -123,6 +136,7 @@ nav{
 }
 
 .FrkaNaRadijalcu p:hover{
+    text-shadow: 0px 0px 10px #000;
     color: #121212;
 }
 
@@ -141,25 +155,24 @@ nav{
     border-radius: 40px;
     
 }
-h1 {
-  text-align: center;
-}
 
 .bg2-text{
+    text-align: center;
+}
+h2.bg2-text{
     font-family: 'Roboto';
     font-size: 40px;
-    margin: auto;
-    text-align: center;
     color: #F8B229;
     transition: 0.1s ease-in 0.1s;
 }
-.bg2-text:hover{
+h2.bg2-text:hover{
     color: #222;
+    text-shadow: 0px 0px 15px #222;
 }
 
 .social-menu ul {
     position: absolute;
-    top: 25%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -204,5 +217,52 @@ h1 {
     background-color: #1DA1F2;
 }
 
+.social-menu ul li:nth-child(2){
+    font-family: 'Roboto';
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #F8B229;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Mont', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#F8B229;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
 
 
