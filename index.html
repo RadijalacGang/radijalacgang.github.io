@@ -12,16 +12,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
+    <header id="head">
        <h1>RADI<span style="color:#F8B229">J</span>ALAC</h1>
         <nav>
             <ul class="nav_links">
-                <li><a href="index.html">Pocetna</a></li>
-                <li><a href="Discord.html">Socials</a></li>
+                <li><a href="#pocetna">Pocetna</a></li>
+                <li><a href="#socials">Socials</a></li>
+                <li><a href="#contact">Contant Us!</a></li>
             </ul>
         </nav>
     </header>
-    <div class="background1">
+    <div class="background1" id="pocetna">
         <div class="Owneri">
             <p>Owneri:</p>
             <p>Mihajlo, Choda</p>
@@ -36,7 +37,7 @@
             <a href="https://www.youtube.com/watch?v=5GMNjjKi5jM&ab_channel=radijalac024">!! KLIKNI OVDE !!</a>
         </div>
     </div>
-    <div class="background2">
+    <div class="background2" id="socials">
         <h2 class="bg2-text">SOCIALS</h2>
         <div class="social-menu">
             <ul>
@@ -46,13 +47,18 @@
             </ul>
           </div>
     </div>
-    <div class="background3">
-        <form>      
-            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+    <div class="background3" id="contact">
+        <form action="https://formsubmit.co/fixgaming55@email.com" method="POST">  
+            <input name="email" type="email" class="feedback-input" placeholder="Email" required/>    
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
             <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
             <input type="submit" value="SUBMIT"/>
         </form>
+    </div>
+    <div class="arrow-up">
+        <ul>
+            <li><a href="#head"><i class="fa fa-arrow-up"></i></a></li>
+        </ul>
     </div>
 </body>
 </html>

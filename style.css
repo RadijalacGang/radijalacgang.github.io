@@ -8,7 +8,7 @@
     font-family: Mont;
     src: url(fonts/MontMed.ttf);
 }
-
+html { scroll-behavior: smooth; }
 * {
     box-sizing: border-box;
     margin: 0;
@@ -67,7 +67,7 @@ nav{
     border-bottom: 3px solid transparent;
     background: #121212;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: all 1s ease 0.1s;
+    transition: all 0.3s ease 0.1s;
 }
 
 .nav_links li a:hover{
@@ -265,4 +265,17 @@ textarea {
 }
 [type="submit"]:hover { background:#CC4949; }
 
+
+.arrow-up{
+    text-align: right;
+    position: relative;
+    right: 1%;
+    bottom: 5%;
+}
+
+.arrow-up a{
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #ff3636;
+}
 
